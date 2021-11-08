@@ -1,7 +1,7 @@
 import tkinter as tk
-from tkinter import Frame, filedialog
-from tkinter import font
+from tkinter import Frame, filedialog, font
 from tkinter.constants import CENTER
+
 
 #on click listener for open file button
 def open_a_file():
