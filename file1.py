@@ -16,7 +16,6 @@ def open_a_file():
     label.place(relx=0.5,rely=0.2,anchor=CENTER)
                 
 
-
 #Initialising Main Window of the application
 window = tk.Tk()
 window.title("Human Detecting System")
@@ -34,6 +33,7 @@ openFile.place(relx=0.5, rely=0.4, anchor=CENTER)
 process = tk.Button(window,text="Process",padx=10,pady=5,
                     fg="white",bg="#263D42",font=buttonFont)
 process.place(relx=0.5, rely=0.6, anchor=CENTER)
+
 
 
 window.mainloop()
