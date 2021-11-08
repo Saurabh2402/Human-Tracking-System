@@ -10,7 +10,7 @@ def open_a_file():
     filename = filedialog.askopenfilename(initialdir="/",title="Select File",
                 filetypes= [("Video", video_formats)])
     
-    labelfont = font.Font(family='Arial', size=12, weight='bold')
+    labelfont = font.Font(family='Arial', size=12, weight='bold') # label font
     label = tk.Label(text=filename,bg="white",font=labelfont, wraplength=400,
                    justify="left")
     label.place(relx=0.5,rely=0.2,anchor=CENTER)
