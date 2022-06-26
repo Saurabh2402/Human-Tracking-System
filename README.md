@@ -9,5 +9,6 @@ We have given 2 options to the user
     
     2. Open webcam and then human faces in front of the webcam will be detected (at run time).
     
-We have used Tkinter for creating the GUI
-And openCV's - haar cascade algorithm to detect faces.
+We have used `tkinter module` for creating the GUI
+
+And `openCV's - haar cascade algorithm` to detect faces.
